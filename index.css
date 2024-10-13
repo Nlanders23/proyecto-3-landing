@@ -248,10 +248,142 @@
 .contactanos a{
     margin-top: 10px;
     margin-left: 70%;
+    color: blueviolet;
 }
+
+.contactanos a:hover{
+    font-size: 20px;
+    color: crimson;
+}
+
 .contactanos h4{
     margin-top: 6px;
     margin-bottom: 6px;
     margin-left: 70%;
+}
 
+.pie-de-pagina{
+    display: grid;
+    grid-template-rows: 1fr 0.1fr;
+    background-image: url('Captura\ de\ pantalla\ \(421\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -300px;
+}
+
+.redes {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.canales-oficiales h4{
+    font-size: 20px;
+    font-family: cursive;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.canales-oficiales a{
+    display: flex;
+    flex-direction:column;
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.canales-oficiales a:hover{
+    width: 60px;
+    height: 60px;
+}
+
+.soporte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.soporte h4{
+    font-size: 20px;
+    font-family: cursive;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.soporte a{
+    display: flex;
+    flex-direction:column;
+    margin-top: 5px;
+    margin-left: 10px;
+    color: blueviolet;
+}
+
+.soporte a:hover{
+    font-size: 20px;
+    color: crimson;
+}
+
+.Nosotros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.Nosotros h4{
+    font-size: 20px;
+    font-family: cursive;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.Nosotros a{
+    display: flex;
+    flex-direction:column;
+    margin-top: 5px;
+    margin-left: 10px;
+    color: blueviolet;
+}
+
+.Nosotros a:hover{
+    font-size: 20px;
+    color: crimson;
+}
+
+.legal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.legal h4{
+    font-size: 20px;
+    font-family: cursive;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.legal a{
+    display: flex;
+    flex-direction:column;
+    margin-top: 5px;
+    margin-left: 10px;
+    color: blueviolet;
+}
+
+.legal a:hover{
+    font-size: 20px;
+    color: crimson;
+}
+
+.derechos{
+    display: flex;
+    height: 40px;
+    align-items: end;
+    justify-content: end;
+    padding-right: 10px;
 }
