@@ -245,6 +245,10 @@
     border-radius: 80%;
 }
 
+.contactanos img{
+    display: flex;
+    justify-items: center;
+}
 .contactanos a{
     margin-top: 10px;
     margin-left: 70%;
