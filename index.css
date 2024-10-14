@@ -88,6 +88,7 @@
 }
 
 .presentacion p{
+    display: flex;
     font-size: 15px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     justify-content: center;
@@ -249,6 +250,7 @@
     display: flex;
     justify-items: center;
 }
+
 .contactanos a{
     margin-top: 10px;
     margin-left: 70%;
@@ -391,3 +393,4 @@
     justify-content: end;
     padding-right: 10px;
 }
+
